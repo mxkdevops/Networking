@@ -3,6 +3,22 @@ ip :172.31.101.155
 Netmask     255.255.240.0 /20
 broadcast address 172.31.111.255
 
+4 bit used for network therefore 2^4= 16 network can build 
+
+Block size for network is 16 
+
+1st network address will be 
+
+1st network address 172.31.16.0
+1st network broadcast 172.31.31.0
+subnet                255.255.240.0
+
+2nd network :172.31.32.0
+    broadcast1
+
+
+
+
 
 
  1     1   1   1   1  1  1 
