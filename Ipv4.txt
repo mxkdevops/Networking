@@ -111,5 +111,52 @@ Subnet mask   255.255.255.192
 			  
 			  
 			  Host : 2^6-2
+
+---------------------------------------------------------------------------------------------------
+04/09/2023 05:15 am 
+https://www.youtube.com/watch?v=Ct4PU6CyvTQ&list=PLh94XVT4dq02frQRRZBHzvj2hwuhzSByN&index=4
+1.51 : IP addresses 
 			  
 ------------------------------------------------------------------------------------------------------
+Private IP addresses 
+Class A 10.0.0.0-10.255.255.255    16,777,216 IP addresses 
+
+Class B 172.16.0.0-172.31.255.255  1,048576   IP addresses 
+
+Class C 192.168.0.0- 192.168.255.255 65,536 IP addresses
+---------------------------------------------------------------------------------------------------
+
+Requirements 
+1. Desgin a network with 3 networks : marketing , sales, Managemet 
+2. Marketing requires 60 computers , sales require 100 computers 
+3. Maagement requires 34 computers .
+
+
+VLSM ( Variable length subneting mask ) 
+sales need 100 Network = 192.168.1.0(25)= 128 block size 128-2=126 ip address
+Network id : 192.168.1.0 
+ip 1st 192.168.1.1
+ip last 192.168.1.126
+broadcast ip : 192.168.1.127
+marketing require 60 computer 192.168.1.128/26
+Broadcast 192.168.1.191/26
+
+sales requires 34 ip 
+192.168.1.192
+192.168.1.254
+broadcast 192.168.1.255
+------------------------------------------------------------------------------------------
+Class B /16+
+IP range  : 172.16.0.0-172.31.255.255
+IP address 172.16.100.225 /17
+subnet 255.255.128.0  = 2^1=2 subnet
+
+Network id 1 : 172.16.0.0/17   = 2^15=32766 ip address 
+Broadcast id : 172.16.127.255
+
+Network id 2 : 172.16.128.0
+Broadcast id 2: 172.16.255.255/17
+
+
+lets add it for day 4 
+
