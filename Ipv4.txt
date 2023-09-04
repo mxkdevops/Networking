@@ -158,5 +158,15 @@ Network id 2 : 172.16.128.0
 Broadcast id 2: 172.16.255.255/17
 
 
-lets add it for day 4 
+lets add it for day 4 - 
+Ip address 172.16.100.225 /18 = 2^2=4 network = 2 bits used for network therefore , 
+subnet mask 255.255.192.255
+network id 1 : 172.16.0.0
+broadcast id : 172.16.63.255
+network id 2 : 172.16.64.0
+broadcast id 2 : 172.16.127.255
+network id 3 :172.16.128.0
+broadcast id 3 172.16.191.255
+network id 4 : 172.16.192.0
+broadcast id : 172.16.255.255
 
